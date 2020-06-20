@@ -1,0 +1,319 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+        <!--Nao Mexer-->
+
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+
+            <!--Inicio Alexa-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2">
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly1">
+                <ImageView
+                    android:src="@drawable/alexa_show"
+                    android:layout_width="76.11dp"
+                    android:layout_height="76.11dp"
+                    android:id="@+id/img1"
+                    android:layout_marginLeft="100dp"/>
+                <TextView
+                    android:text="Alexa Show 8"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginLeft="5dp"
+/>
+
+            </LinearLayout>
+            <!--Inicio Quantidade alexa-->
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtde1"
+                android:layout_marginLeft="190dp"/>
+            
+            <!--Inicio Quantidade alexa-->
+            <Button
+                android:background="#77dd77"
+                android:text="Adicionar 1(R$474,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAd1" />
+
+            <Button
+                android:background="#8B0000"
+                android:text="Remover 1(R$-474,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnRemove1" />
+            </LinearLayout>
+            
+            <!--Fim Alexa-->
+
+            <!--Inicio Lampada-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout">
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly1">
+                <ImageView
+                    android:src="@drawable/lampada_wirles"
+                    android:layout_width="76.11dp"
+                    android:layout_height="76.11dp"
+                    android:id="@+id/img1"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginLeft="100.0dp"
+                    android:layout_marginBottom="0.0dp" />
+                <TextView
+                    android:text="Lampad Hue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginLeft="5.0dp"
+/>
+
+            </LinearLayout>
+            <!--Inicio Quantidade alexa-->
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtde2"
+                android:layout_marginLeft="190dp"/>
+            
+            <!--Inicio Quantidade alexa-->
+            <Button
+                android:background="#77dd77"
+                android:text="Adicionar 1(R$341,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAd2" />
+
+            <Button
+                android:background="#8B0000"
+                android:text="Remover 1(R$-341,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnRemove2" />
+            </LinearLayout>
+            
+            <!--Fim Lampada-->
+
+
+            <!--Inicio Smart TV-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3">
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly1">
+                <ImageView
+                    android:src="@drawable/tv"
+                    android:layout_width="76.11dp"
+                    android:layout_height="76.11dp"
+                    android:id="@+id/img1"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginLeft="100.0dp"
+                    android:layout_marginBottom="0.0dp" />
+                <TextView
+                    android:text="Smart Tv"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginLeft="5.0dp"
+/>
+
+            </LinearLayout>
+            <!--Inicio Quantidade alexa-->
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtde3"
+                android:layout_marginLeft="190dp"/>
+            
+            <!--Inicio Quantidade alexa-->
+            <Button
+                android:background="#77dd77"
+                android:text="Adicionar 1(R$1.519,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAd3" />
+
+            <Button
+                android:background="#8B0000"
+                android:text="Remover 1(R$-1.519,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnRemove3" />
+            </LinearLayout>
+            
+            <!--Fim tv-->
+
+            <!--Inicio Apirador-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout22">
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly1">
+                <ImageView
+                    android:src="@drawable/aspirador"
+                    android:layout_width="76.11dp"
+                    android:layout_height="76.11dp"
+                    android:id="@+id/img1"
+                    android:layout_marginRight="0.0dp"
+                    android:layout_marginLeft="100.0dp"
+                    android:layout_marginBottom="0.0dp" />
+                <TextView
+                    android:text="Aspirador Robo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginLeft="5.0dp"
+/>
+
+            </LinearLayout>
+            <!--Inicio Quantidade alexa-->
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQtde4"
+                android:layout_marginLeft="190dp"/>
+            
+            <!--Inicio Quantidade alexa-->
+            <Button
+                android:background="#77dd77"
+                android:text="Adicionar 1(R$499,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAd4" />
+
+            <Button
+                android:background="#8B0000"
+                android:text="Remover 1(R$-499,00)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnRemove4" />
+            </LinearLayout>
+            
+            <!--Fim Aspirador-->
+            
+
+
+
+
+
+
+
+           
+
+            
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly1">
+                <TextView
+                    android:text="Vai dar R$"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="91.5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtVa"
+                    
+                    android:layout_marginRight="0.0dp" />
+                <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtValor"
+                android:layout_marginLeft="0.5dp"/>
+
+            </LinearLayout>
+
+            
+
+
+
+        </LinearLayout>
+        <!--Nao Mexer-->
+    </ScrollView>
+</RelativeLayout>
